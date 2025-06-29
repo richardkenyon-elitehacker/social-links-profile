@@ -48,7 +48,6 @@ body {
 .container {
     width: 375px;
     height: 812px;
-    border: 1px solid white;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -57,7 +56,6 @@ body {
 }
 
 .card {
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     padding: 24px;
