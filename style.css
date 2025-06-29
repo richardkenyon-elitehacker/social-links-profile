@@ -53,13 +53,14 @@ body {
     display: flex;
     align-items: center;
     padding: 0 24px;
+    box-sizing: border-box;
 }
 
 .card {
     border: 1px solid white;
     display: flex;
     flex-direction: column;
-    padding: 24px 0;
+    padding: 24px;
     align-items: center;
     gap: 24px;
     background-color: var(--grey-800);
@@ -79,7 +80,6 @@ body {
     flex-direction: column;
     gap: 16px;
     width: 100%;
-    max-width: 279px;
 }
 
 .card .links a {
