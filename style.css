@@ -51,18 +51,20 @@ body {
     border: 1px solid white;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     padding: 0 24px;
 }
 
 .card {
     border: 1px solid white;
-    margin: 24px auto;
     display: flex;
     flex-direction: column;
+    padding: 24px 0;
     align-items: center;
     gap: 24px;
     background-color: var(--grey-800);
     width: 100%;
+    height: 579px;
 }
 
 .card img.avatar {
