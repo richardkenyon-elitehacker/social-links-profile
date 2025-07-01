@@ -46,13 +46,9 @@ body {
 }
 
 .container {
-    width: 375px;
     height: 812px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 0 24px;
-    box-sizing: border-box;
 }
 
 .card {
@@ -62,7 +58,9 @@ body {
     align-items: center;
     gap: 24px;
     background-color: var(--grey-800);
-    width: 100%;
+    width: 327px;
+    box-sizing: border-box;
+    margin: 0 auto;
     border-radius: 12px;
 }
 
@@ -91,6 +89,12 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.card .links a:hover {
+    background-color: var(--green);
+    color: var(--grey-700);
 }
 
 .namelocation {
@@ -100,4 +104,11 @@ body {
 
 .namelocation h3 {
     color: var(--green);
+}
+
+@media (min-width: 768px) {
+
+    .card {
+        padding: 40px;
+    }
 }
