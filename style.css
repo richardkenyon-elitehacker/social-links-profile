@@ -81,7 +81,6 @@ body {
 .card .links a {
     color: white;
     text-decoration: none;
-    display: block;
     background-color: var(--grey-700);
     text-align: center;
     height: 45px;
