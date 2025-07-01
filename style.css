@@ -101,7 +101,7 @@ body {
     text-align: center;
 }
 
-.namelocation h3 {
+.namelocation p {
     color: var(--green);
 }
 
