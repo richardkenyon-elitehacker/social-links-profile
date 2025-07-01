@@ -107,8 +107,16 @@ body {
 }
 
 @media (min-width: 768px) {
-
     .card {
         padding: 40px;
+        width: 384px;
     }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
